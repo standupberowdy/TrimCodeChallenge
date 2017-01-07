@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# TrimCodeChallenge
+>>>>>>> 85a3b0782ae3bdfcf196855ee198d999d36d52f2
