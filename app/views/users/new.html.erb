@@ -41,3 +41,31 @@ Intelligence: <%= f.text_field :intelligence %><br />
 <%= f.submit %>
 <% end -%>
 <body>
+
+<hr>
+Display Info:
+<% if !@users.blank? %>
+	<% for item in @users %>
+		<%= item.fullname %>
+		<%= item.email %>
+		<%= item.project_repo %>
+		<%= item.project_url %>
+		<%= item.best_practices %>
+		<%= item.module_develop %>
+		<%= item.testing %>
+		<%= item.database %>
+		<%= item.debugging %>
+		<%= item.problem_solving %>
+		<%= item.javascript %>
+		<%= item.html %>
+		<%= item.css %>
+		<%= item.teamwork %>
+		<%= item.motivation %>
+		<%= item.communication %>
+		<%= item.energy %>
+		<%= item.intelligence %>
+
+		<% end %>
+	<% else %>
+
+<% end %>
